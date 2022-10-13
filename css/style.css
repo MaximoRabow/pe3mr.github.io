@@ -1,0 +1,118 @@
+header {
+  background-image: url(../aassets/Image/timesquare.webp);
+  height: 625px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#navbarDropdownMenuLink {
+  font-size: 1.2rem;
+  margin-left: 130px;
+  font-weight: bold;
+  color: white;
+}
+
+main {
+  min-height: 2100px;
+}
+
+#h2main {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 0;
+}
+
+.btn {
+  background-color: grey !important;
+  border-style: none !important;
+  height: 40px;
+  width: 160px;
+}
+.btn a {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: white;
+}
+
+#sec2main {
+  background-image: url(../aassets/Image/MAEC_ESTADOS\ UNIDOS_NUEVA\ YORK.jpg);
+  min-height: 450px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#sec3main {
+  min-height: 400px;
+  margin-top: 30px;
+}
+
+#fotocarrusel {
+  height: 380px;
+}
+
+#sec4main {
+  min-height: 400px;
+}
+#sec4main #botonsec4 {
+  margin-bottom: 30px;
+}
+
+#foot {
+  height: 300px;
+  background-color: lightsalmon;
+}
+#foot #titform {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+#foot #form {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#foot #form1 {
+  margin-left: 30px;
+}
+#foot #exampleFormControlInput1 {
+  width: 400px;
+}
+#foot #exampleFormControlTextarea1 {
+  width: 400px;
+}
+#foot #logofoot {
+  width: 280px;
+  height: 280px;
+  margin-top: 15px;
+  margin-left: 90px;
+}
+#foot #logof {
+  width: 50px;
+  height: 50px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+#foot #logoi {
+  width: 50px;
+  height: 50px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+#foot #logot {
+  width: 50px;
+  height: 50px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+#foot #logop {
+  width: 50px;
+  height: 50px;
+  margin-left: 200px;
+}/*# sourceMappingURL=style.css.map */

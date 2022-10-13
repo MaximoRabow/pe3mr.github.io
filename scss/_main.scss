@@ -1,0 +1,43 @@
+main {
+    min-height: 2100px;
+    }
+    #h2main {
+        margin-top: 50px;
+        margin-bottom: 45px;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 0;
+    }
+    .btn {
+        background-color: grey !important;
+        border-style: none !important;
+        height: 40px;
+        width: 160px; 
+        a {
+            text-decoration: none !important;
+            font-weight: bold;
+            color: white;
+        }
+    }       
+    
+    #sec2main {
+        background-image: url(../aassets/Image/MAEC_ESTADOS\ UNIDOS_NUEVA\ YORK.jpg);
+        min-height: 450px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #sec3main {
+        min-height: 400px;
+        margin-top: 30px;
+    }
+    #fotocarrusel {
+        height: 380px;
+    }
+    #sec4main {
+        min-height: 400px;
+        #botonsec4 {
+            margin-bottom: 30px;
+        }
+    }
