@@ -115,4 +115,74 @@ main {
   width: 50px;
   height: 50px;
   margin-left: 200px;
+}
+
+@media (max-width: 575.98px) {
+  main {
+    min-height: 4450px !important;
+  }
+  #sec2main {
+    min-height: 250px;
+  }
+  #sec2main #h2sec2 {
+    padding-bottom: 30px;
+  }
+  #sec3main {
+    min-height: 500px;
+    margin-top: 30px;
+  }
+  #sec3main #titcarru {
+    margin-top: -45px;
+  }
+  #sec3main .btn {
+    margin-left: 85px;
+  }
+  #fotocarrusel {
+    height: 210px;
+  }
+  #botonsec4 {
+    margin-left: 120PX !important;
+  }
+  #foot {
+    min-height: 720px !important;
+  }
+  #exampleFormControlInput1 {
+    width: 300px !important;
+  }
+  #exampleFormControlTextarea1 {
+    width: 340px !important;
+  }
+  #logofoot {
+    width: 150px !important;
+    height: 150px !important;
+    margin-left: 125px !important;
+  }
+  #logof {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 180px !important;
+    margin-bottom: 10px;
+  }
+  #logoi {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 180px !important;
+    margin-bottom: 10px;
+  }
+  #logot {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 180px !important;
+    margin-bottom: 10px;
+  }
+  #logop {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 180px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  main {
+    height: 3100px;
+  }
 }/*# sourceMappingURL=style.css.map */
