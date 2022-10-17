@@ -5,8 +5,9 @@ main {
         margin-top: 50px;
         margin-bottom: 45px;
         text-align: center;
-        font-size: 2rem;
+        font-size: $fuenteh1;
         line-height: 0;
+        font-family: $fuentetitulos;
     }
     .btn {
         background-color: grey !important;
@@ -27,13 +28,31 @@ main {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: contain;
+        #h2sec2 {
+            font-family: $fuentetitulos;
+        }
     }
     #sec3main {
         min-height: 400px;
         margin-top: 30px;
     }
+    #titcarru {
+        font-family: $fuentetitulos;
+        font-size: $fuenteh2;
+    }
+    #textcarru {
+        font-family: $fuentetitulos;
+        font-size: $tamañoparrafo;
+    }
     #fotocarrusel {
         height: 380px;
+    }
+    #titsec3 {
+        font-family: $fuentetitulos;
+        font-size: $fuenteh2;
+    }
+    h5 {
+        font-family: $fuentetitulos;
     }
     #sec4main {
         min-height: 400px;

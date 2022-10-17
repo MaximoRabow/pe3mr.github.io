@@ -1,8 +1,11 @@
 // `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)
 @media (max-width: 575.98px) {
     main {
-        min-height: 4450px !important;
+        min-height: 4550px !important;
     }
+        #h2main {
+            font-size: 25px !important;
+        }
         #sec2main {
             min-height: 250px;
             #h2sec2 {

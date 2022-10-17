@@ -6,11 +6,11 @@ header {
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $fuentetitulos;
     }
     #navbarDropdownMenuLink {
-        font-size: $fuentetitulo;
-        margin-left: 130px;
+        font-size: $fuentenavbar;
+        margin-left: 100px;
         font-weight: bold;
         color: white;
     

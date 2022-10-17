@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
 header {
   background-image: url(../aassets/Image/timesquare.webp);
   height: 625px;
@@ -6,12 +7,12 @@ header {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Cardo", serif;
 }
 
 #navbarDropdownMenuLink {
-  font-size: 15px;
-  margin-left: 130px;
+  font-size: 1.2rem;
+  margin-left: 100px;
   font-weight: bold;
   color: white;
 }
@@ -24,8 +25,9 @@ main {
   margin-top: 50px;
   margin-bottom: 45px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 0;
+  font-family: "Cardo", serif;
 }
 
 .btn {
@@ -48,14 +50,36 @@ main {
   background-attachment: fixed;
   background-size: contain;
 }
+#sec2main #h2sec2 {
+  font-family: "Cardo", serif;
+}
 
 #sec3main {
   min-height: 400px;
   margin-top: 30px;
 }
 
+#titcarru {
+  font-family: "Cardo", serif;
+  font-size: 2rem;
+}
+
+#textcarru {
+  font-family: "Cardo", serif;
+  font-size: 1.1rem;
+}
+
 #fotocarrusel {
   height: 380px;
+}
+
+#titsec3 {
+  font-family: "Cardo", serif;
+  font-size: 2rem;
+}
+
+h5 {
+  font-family: "Cardo", serif;
 }
 
 #sec4main {
@@ -73,6 +97,7 @@ main {
   margin-top: 20px;
   margin-left: 30px;
   font-size: 1.2rem;
+  font-family: "Cardo", serif;
 }
 #foot #form {
   margin-top: 10px;
@@ -119,7 +144,10 @@ main {
 
 @media (max-width: 575.98px) {
   main {
-    min-height: 4450px !important;
+    min-height: 4550px !important;
+  }
+  #h2main {
+    font-size: 25px !important;
   }
   #sec2main {
     min-height: 250px;
