@@ -107,8 +107,6 @@ h5 {
   background-color: lightsalmon;
 }
 #foot #titform {
-  margin-top: 20px;
-  margin-left: 30px;
   font-size: 1.2rem;
   font-family: "Cardo", serif;
 }
@@ -165,9 +163,6 @@ h5 {
   }
   #sec3main #titcarru {
     margin-top: -45px;
-  }
-  #sec3main .btn {
-    margin-left: 85px;
   }
   #fotocarrusel {
     height: 210px;
