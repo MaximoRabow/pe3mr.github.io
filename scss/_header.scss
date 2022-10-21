@@ -1,18 +1,27 @@
 header {
-    background-image: url(../aassets/Image/timesquare.webp);
+    background-image: url(../aassets/Image/fotoheader.jpg);
     height: 625px;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    font-family: $fuentetitulos;
+    font-family: $fuentenavbar;
     }
     #navbarDropdownMenuLink {
         font-size: $fuentenavbar;
-        margin-left: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
         font-weight: bold;
         color: white;
-    
     }
+    #botnav1 {
+            margin-left: 80px;
+            background-color: transparent;
+            border-style: none;
+            .dropdown-item {
+                @include navbar;
+            }
+        }
+    
     

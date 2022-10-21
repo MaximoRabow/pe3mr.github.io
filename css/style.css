@@ -1,20 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 header {
-  background-image: url(../aassets/Image/timesquare.webp);
+  background-image: url(../aassets/Image/fotoheader.jpg);
   height: 625px;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  font-family: "Cardo", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #navbarDropdownMenuLink {
-  font-size: 1.2rem;
-  margin-left: 100px;
+  font-size: "Roboto", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
   font-weight: bold;
   color: white;
+}
+
+#botnav1 {
+  margin-left: 80px;
+  background-color: transparent;
+  border-style: none;
+}
+#botnav1 .dropdown-item {
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
 }
 
 main {
