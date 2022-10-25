@@ -23,7 +23,7 @@ main {
     
     #sec2main {
         background-image: url(../aassets/Image/MAEC_ESTADOS\ UNIDOS_NUEVA\ YORK.jpg);
-        min-height: 450px;
+        min-height: 100vh;
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -39,6 +39,10 @@ main {
     #titcarru {
         font-family: $fuentetitulos;
         font-size: $fuenteh2;
+    }
+    #fotocarrusel {
+        max-width: 100%;
+        height: auto;
     }
     #textcarru {
         font-family: $fuentetitulos;

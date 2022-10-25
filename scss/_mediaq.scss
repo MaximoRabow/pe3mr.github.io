@@ -1,5 +1,20 @@
 // `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)
 @media (max-width: 575.98px) {
+    header {
+        height: 100vh;
+        #logo {
+            width: 2em;
+            height: 2em;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        }
+
+
+    #navbarDropdownMenuLink {
+        font-size: .8rem;
+    }
+
     main {
         min-height: 4750px !important;
     }
@@ -59,12 +74,6 @@
 
 // `md` se aplica a dispositivos small (teléfonos horizontales, menos de 768px)
 @media (max-width: 767.98px) { 
-    main {
-        height: 3100px;
-        }
-
-
-
 
 }
 
@@ -75,7 +84,7 @@
 
 // `xl` se aplica a dispositivos large (escritorios, menos de 1200px)
 @media (max-width: 1199.98px) {
-
+    
 }
 
 // `xxl` se aplica a dispositivos x-large (escritorios grandes, menos de 1400px)
